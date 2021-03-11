@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Karla', sans-serif;
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+body {
+    background-color: var(--Light-Gray)
+}
+
+main {
+    min-width: 375px;
+    width: 375px;
+    height: auto;
+    margin: 80px auto;
+}
+
+.info-container {
+    min-width: 375px;
+    padding: 30px 25px 60px 25px ;
+    font-size: 1.6rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px 8px 0 0; 
+}
+
+.info-container h2 {
+    color: var(--Cyan);
+}
+
+.info-container h3 {
+    color: var(--Bright-Yellow);
+}
+
+.info-container p {
+    color: var(--Grayish-Blue);
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+}
+
+.subscription-container {
+    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 25px 35px 25px;
+    gap: 20px;
+    background-color: var(--Cyan);
+    font-size: 1.6rem;
+}
+
+.subscription-container h2 {
+    color: white;
+}
+
+.subscription-container p {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.subscription-h3--price {
+    display: flex;
+    align-items: center;
+}
+
+.subscription-container .subscription-h3--per-month {
+    color: var(--Light-Gray);
+    font-size: 1.6rem;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+.subscription-container .subscription-h3--price{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.subscription-container a {
+    text-align: center;
+    padding: 15px 12px;
+    margin-top: 20px;
+    background-color: var(--Bright-Yellow);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 5px 4px 9px -5px rgba(0,0,0,0.60);
+}
+
+.footer {
+    min-width: 375px;
+    padding: 20px 25px 25px 25px;
+    color: white;
+    background-color:  hsl(179, 57%, 55%);
+    font-size: 1.6rem;
+    border-radius: 0 0 8px 8px; 
+}
+
+.footer h2 {
+    margin: 20px auto;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
